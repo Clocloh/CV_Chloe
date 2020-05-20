@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>CV Chloé Henriques</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Draco is free PSD &amp; HTML template by @afnizarnur">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/kubee.css" />
+    <link rel="stylesheet" href="css/fontawesome.css" />
+    <link rel="stylesheet" href="css/customm.css" />
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link href=' https://docs.google.com/spreadsheets/d/e/2PACX-1vRYChirvPQ02QIu5UwLfx3uDcUlTMQxqhOsFikyIvGoy32mQmzCc7t5NFD2vCo-mvTlZusEeXvE6SCl/pub?gid=334952637&single=true&output=csv' >
+
+    <style>
+
+        .intro h1:before {
+            /* Edit this with your name or anything else */
+            content: 'Curriculum Vitae';
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <div class="main-nav">
+        <div class="container">
+            <header class="group top-nav">
+                <div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
+                    <span class="logo">Chloé Henriques</span>
+                </div>
+                <nav id="navbar-1" class="navbar item-nav">
+                    <ul>
+                        <li class="active"><a href="./index.html#about">A propos</a></li>
+                        <li><a href="./index.html#experience">Expérience professionnelle</a></li>
+                        <li><a href="./index.html#formation">Formation</a></li>
+                        <li><a href="./index.html#competences">Compétences</a></li>
+                        <li><a href="./index.html#interets">Intérêts</a></li>
+                        <li><a href="./index.html#contacter">Me contacter</a></li>
+                        <li>
+                            <a href="./stages.html">Stages</a>
+                        <ul>
+                            <li><a href="#premiere_annee">Première année</a></li> 
+                        </ul>
+                        <ul>
+                            <li><a href="#deuxième_annee2018">Deuxième année 2018</a></li> 
+                        </ul>
+                        <ul>
+                            <li><a href="#deuxième_annee2019">Deuxième année 2019</a></li> 
+                        </ul>
+
+                        </li>
+
+                    </ul>
+                </nav>
+            </header>
+        </div>
+    </div>
+    <!-- Première année -->
+    <div class="intro section" id="première_annee">
+        <div class="container">
+            <p>
+                Bonjour, je m'appelle Chloé Henriques, j'ai 21 ans, je suis étudiante en licence professionelle Développement 
+                Web et Mobile à Paris 8 (Vincennes - Saint-Denis).
+            </p>
+        </div>
+    </div>
+
+    <!-- Deuxième année 2018 -->
+    <div class="intro section" id="deuxième_annee2018">
+        <div class="container">
+            <p>
+                Bonjour, je m'appelle Chloé Henriques, j'ai 21 ans, je suis étudiante en licence professionelle Développement 
+                Web et Mobile à Paris 8 (Vincennes - Saint-Denis).
+            </p>
+        </div>
+    </div>
+
+    <!-- Deuxième année 2019 -->
+    <div class="intro section" id="deuxième_annee2019">
+        <div class="container">
+            <p>
+                Bonjour, je m'appelle Chloé Henriques, j'ai 21 ans, je suis étudiante en licence professionelle Développement 
+                Web et Mobile à Paris 8 (Vincennes - Saint-Denis).
+            </p>
+        </div>
+    </div>
+   
+      
+        
+
+
+
+
+    <!--  TEST Spreadsheet
+
+    <script type="text/javascript">
+        function Upload() {
+            var fileUpload = document.getElementById("fileUpload");
+            var regex = /^([a-zA-Z0-9\s_\\.\-:])+(.csv|.txt)$/;
+            if (regex.test(fileUpload.value.toLowerCase())) {
+                if (typeof (FileReader) != "undefined") {
+                    var reader = new FileReader();
+                    reader.onload = function (e) {
+                        var table = document.createElement("table");
+                        var rows = e.target.result.split("\n");
+                        for (var i = 0; i < rows.length; i++) {
+                            var cells = rows[i].split(",");
+                            if (cells.length > 1) {
+                                var row = table.insertRow(-1);
+                                for (var j = 0; j < cells.length; j++) {
+                                    var cell = row.insertCell(-1);
+                                    cell.innerHTML = cells[j];
+                                }
+                            }
+                        }
+                        var dvCSV = document.getElementById("dvCSV");
+                        dvCSV.innerHTML = "";
+                        dvCSV.appendChild(table);
+                    }
+                    reader.readAsText(fileUpload.files[0]);
+                } else {
+                    alert("This browser does not support HTML5.");
+                }
+            } else {
+                alert("Please upload a valid CSV file.");
+            }
+        }
+    </script>
+    <input type="file" id="fileUpload" />
+    <input type="button" id="upload" value="Upload" onclick="Upload()" />
+    <hr />
+    <div id="dvCSV">
+    </div>
+
+    -->
+    </footer>
+    <!-- Javascript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/kube.min.js"></script>
+    <script src="js/site.js"></script>
+    <script src="js/slide.js"></script>
+
+    <script>
+        function newTyped() { } $(function () {
+            $("#typed").typed({
+                // Change to edit type effect
+                strings: ["Chloé", "HENRIQUES"],
+
+                typeSpeed: 90, backDelay: 700, contentType: "html", loop: !0, resetCallback: function () { newTyped() }
+            }), $(".reset").click(function () { $("#typed").typed("reset") })
+        });
+    </script>
+
+</body>
+</html>
