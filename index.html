@@ -277,7 +277,7 @@
                 <h1>Me contacter<br></h1>
                 </div>
                 <ul class="contacter-list list-flat">
-                        <a HREF="henriques.chloe1998@gmail.com"><li>Adresse mail: henriques.chloe1998@gmail.com</li></a>
+                        <a HREF="mailto:henriques.chloe1998@gmail.com"><li>Adresse mail: henriques.chloe1998@gmail.com</li></a>
                 </ul>
             
                 
@@ -339,12 +339,13 @@
     -->
     </footer>
     <!-- Javascript -->
+    <script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
+
     <script src="js/jquery.min.js"></script>
     <script src="js/typed.min.js"></script>
     <script src="js/kube.min.js"></script>
     <script src="js/site.js"></script>
     <script src="js/slide.js"></script>
-
     <script>
         function newTyped() { } $(function () {
             $("#typed").typed({
@@ -355,6 +356,25 @@
             }), $(".reset").click(function () { $("#typed").typed("reset") })
         });
     </script>
-
+<script>
+    $('<div></div>')
+		.attr('id','scrolltotop')
+		.hide()
+		.css({'z-index':'1000','position':'fixed','bottom':'25px','right':'35px','cursor':'pointer','width':'40px','height':'40px','background':'#F880A2', 'border-radius':'30px'})
+		.appendTo('body')
+		.click(function(){
+			$('html,body').animate({scrollTop: 0}, 'slow');
+		});
+	$('<div></div>')
+		.css({'width':'6px','height':'6px','transform':'rotate(-135deg)','border':'solid #ffffff','border-width':'0 3px 3px 0','padding':'3px','margin-top':'16px','margin-left':'16px'})
+		.appendTo('#scrolltotop');
+	$(window).scroll(function(){
+		if($(window).scrollTop()<500){
+			$('#scrolltotop').fadeOut();
+		}else{
+			$('#scrolltotop').fadeIn();
+		}
+	});
+    </script>
 </body>
 </html>
