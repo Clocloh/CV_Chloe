@@ -7,6 +7,19 @@
     color: #333333;
 }
 
+.couleurtitre{
+    color:#ff6a00;
+}
+
+.windows{
+    width: 15%;
+    float: left;
+}
+
+.titre_dev{
+   text-align: center; 
+}
+
 a, p, li {
     font-family: "Lato", Arial, sans-serif;
     color: #4e4e4e;
@@ -132,7 +145,7 @@ a, p, li {
 
     .section .container:after {
         position: absolute;
-        content: url(../img/separator.png);
+        /* content: url(../img/separator.png); */
         left: 20px;
     }
 
