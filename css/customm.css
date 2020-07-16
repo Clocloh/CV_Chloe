@@ -16,6 +16,15 @@
     float: left;
 }
 
+.dimension{
+    width: 14%;
+
+}
+
+.margindroite{
+    margin-right: 87px;
+}
+
 .protege{
     margin-left: 61%;
     margin-top: 4%;
@@ -24,6 +33,13 @@
 .titre_dev{
    text-align: center; 
 }
+
+.centrer_windows{
+    margin-left: 45%;
+    width: 15%;
+    margin-right: auto;
+}
+
 
 a, p, li {
     font-family: "Lato", Arial, sans-serif;
