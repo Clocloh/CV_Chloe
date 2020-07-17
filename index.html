@@ -4,17 +4,16 @@
     <title>CV Chloé Henriques</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Draco is free PSD &amp; HTML template by @afnizarnur">
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="css/kubee.css" />
     <link rel="stylesheet" href="css/fontawesome.css" />
-    <link rel="stylesheet" href="css/customm.css" />
-    <link rel="shortcut icon" href="cv_chloe/img/favicon.png" />
     <link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:600,900" rel="stylesheet">
     <link href=' https://docs.google.com/spreadsheets/d/e/2PACX-1vRYChirvPQ02QIu5UwLfx3uDcUlTMQxqhOsFikyIvGoy32mQmzCc7t5NFD2vCo-mvTlZusEeXvE6SCl/pub?gid=334952637&single=true&output=csv' >
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/kubee.css" />
+    <link rel="stylesheet" href="css/customm.css" />
     <style>
 
         .intro h1:before {
@@ -155,12 +154,85 @@
                 <h5><i>Tâches effectuées</i></h5>
               <p>
                 <ul>
-                <li>Création de bases de données (importation de fichiers, liste d'utilisateurs</li>         
+                <li>Création de bases de données (importation de fichiers, liste d'utilisateurs)</li>         
                 <li>Création des pages: affichagebdd, envoitexte, envoitexteres, zonetexte</li>
                 <li>Création du css des pages</li>          
                 </ul>
                 </p> 
         </div>
+          <!-- gallery -->
+          <section class="gallery">
+            <div class="carousel">
+              
+              <input type="radio" id="image1" name="gallery-control" checked>
+              <input type="radio" id="image2" name="gallery-control">
+              <input type="radio" id="image3" name="gallery-control">
+              <input type="radio" id="image4" name="gallery-control">
+              <input type="radio" id="image5" name="gallery-control">
+              <input type="radio" id="image6" name="gallery-control">
+            
+              <input type="checkbox" id="fullscreen" name="gallery-fullscreen-control"/>
+              
+              <div class="wrap">
+                
+                <figure>
+                  <label for="fullscreen">
+                    <img src="img/1.png" alt="image1"/>
+                  </label>
+                </figure>
+                
+                <figure>
+                  <label for="fullscreen">
+                    <img src="img/bdd.png" alt="image2"/>
+                  </label>
+                </figure>
+          
+                <figure>
+                  <label for="fullscreen">
+                    <img src="img/inscription.png" alt="image3" />
+                  </label>
+                </figure>
+          
+                <figure>
+                  <label for="fullscreen">
+                    <img src="img/connexion.png" alt="image4"/>
+                  </label>
+                </figure>
+
+                <figure>
+                    <label for="fullscreen">
+                      <img src="img/envoi_texte.png" alt="image5"/>
+                    </label>
+                  </figure>
+                  
+                  <figure>
+                    <label for="fullscreen">
+                      <img src="img/affichagebdd.png" alt="image6"/>
+                    </label>
+                  </figure>
+    
+              </div>
+              
+              <div class="thumbnails">
+                
+                <div class="slider"><div class="indicator"></div></div>
+                
+                <label for="image1" class="thumb" style="background-image: url('img/1.png')"></label>
+                
+                <label for="image2" class="thumb" style="background-image: url('img/bdd.png')"></label>
+                
+                <label for="image3" class="thumb" style="background-image: url('img/inscription.png')"></label>
+                  
+                <label for="image4" class="thumb" style="background-image: url('img/connexion.png')"></label>
+
+                <label for="image5" class="thumb" style="background-image: url('img/envoi_texte.png')"></label>
+                
+                <label for="image6" class="thumb" style="background-image: url('img/affichagebdd.png')"></label>
+        
+              </div>
+            </div>
+          </section>
+        <!-- fin gallery -->
     </div>
     <!-- Formation -->
     <div class="award section second" id="formation">
@@ -356,12 +428,7 @@
         <div class="container text-centered">
             <h1>Chloé HENRIQUES</h1>
         </div>
-    </div>
-
-
-
-
-
+    </div>   
     <!--  TEST Spreadsheet
 
     <script type="text/javascript">
@@ -407,12 +474,13 @@
     </footer>
     <!-- Javascript -->
     <script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
-
     <script src="js/jquery.min.js"></script>
     <script src="js/typed.min.js"></script>
     <script src="js/kube.min.js"></script>
     <script src="js/site.js"></script>
     <script src="js/slide.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <script>
         function newTyped() { } $(function () {
             $("#typed").typed({
