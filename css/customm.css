@@ -12,8 +12,11 @@
 }
 
 .windows{
-    width: 15%;
-    float: left;
+  width: 10%;
+}
+
+.windows2{
+  width: 30%;
 }
 
 .dimension{
@@ -33,6 +36,11 @@
 .wp{
   margin-left: 61%;
   width: 17%;
+}
+
+.wp2{
+  
+  width: 30%;
 }
 
 .titre_dev{
